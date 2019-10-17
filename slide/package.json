@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "marp -s .",
+    "build": "marp --pdf --allow-local-files ./slide.md"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.14.1"
+  }
+}
